@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap git</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!-- NAWIGACJA -->
+  <section class="nav">
+    <nav class="nav navbar-default navbar-inverse">
+      <div class="container">
+        <div class="navbar-header navbar-left">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <nav class="logo">
+            <a class="navbar-brand" href="#"><img src="https://cdn.autoexposure.co.uk/motorscdn/motors/dealer-images/98980/motors-logo.jpg" alt="logo"></a>
+          </nav>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">O nas</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kategoria<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- KARUZELA -->
+  <section class="gallery">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://wypozyczalniasamochodowwwarszawie.pl/wp-content/uploads/2016/02/audi-r8-slider-wypozyczalnia-samochodow-w-warszawie.jpg" alt="auto">
+        </div>
+        <div class="item">
+          <img src="https://a-static.besthdwallpaper.com/pagani-huayra-super-car-wallpaper-1920x600-1277_57.jpg" alt="auto">
+        </div>
+        <div class="item">
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/ba/ff/df/baffdfa302aff60e510c91431467856c.jpg" alt="auto">
+        </div>
+        <div class="item">
+          <img src="https://s3.eu-west-2.amazonaws.com/luxurylondon.co.uk-storage-bucket-001/images/080518115402/hero/london-concours-june-2018-classic-supercars-london-3-xl.jpg" alt="auto">
+        </div>
+        <div class="item">
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/ba/ff/df/baffdfa302aff60e510c91431467856c.jpg" alt="auto">
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- TABS -->
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li><a data-toggle="tab" href="#menu1">gallery</a></li>
+      <li><a data-toggle="tab" href="#menu2">look&look</a></li>
+      <li><a data-toggle="tab" href="#menu3">contact</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="menu1" class="tab-pane fade">
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="http://www.car-revs-daily.com/wp-content/uploads/2016/02/details-800x756.jpg" alt="auto">
+            </a>
+            <div>
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <div class="row">
+         <h1>Lorem ipsum dolor sit amet</h1>
+         <h2>Lorem ipsum dolor sit amet</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+       </div>
+     </div>
+     <div id="menu3" class="tab-pane fade">
+      <div class="form">
+        <form>
+          <div class="form-group">
+            <label class="control-label" for="exampleInputEmail">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="exampleInputTopic">Temat</label>
+            <input type="text" class="form-control" id="exampleInputTopic" placeholder="Temat">
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="exampleInputMessage">Wiadomosc</label>
+            <textarea class="form-control" rows="5" placeholder="wiadomosc"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">wyslij</button>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+  <!-- MODAL -->
+  <section class="button">
+    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">regulamin
+    </button>
+    <div id="exampleModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="modal-footer">
+            <p>Footer</p>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html> 
